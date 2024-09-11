@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	const foo = $props();
+
+	// INTERESTINGLY the following does not result in an error... give it a try
+	// const props = $props();
+	// same with this
+	// const state = $state();
+</script>
